@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+
+figure {
+    text-align: center;
+    color: #1F2937;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    max-width: 50%;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0 4em;
+}
+
+.nav > p {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.nav > a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 4em 4em;
+    background-color: #1F2937;
+    color: white;
+}
+
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.type-section {
+    padding: 8em 16em;
+}
+
+.types {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 4em 8em;
+}
+
+#quote {
+    text-align: left;
+    font-size: 36px;
+}
+
+#by {
+    text-align: right;
+}
