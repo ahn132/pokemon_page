@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
 a {
     text-decoration: none;
 }
@@ -12,6 +17,14 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0;
 }
 
 button {
@@ -20,7 +33,7 @@ button {
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
 }
 
 figure {
@@ -45,18 +58,18 @@ figure img {
     padding: 0 4em;
 }
 
-.nav > p {
+.nav>p {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
 }
 
-.nav > a {
+.nav>a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.introduction {
+#introduction {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,8 +85,8 @@ figure img {
     max-width: 75%;
 }
 
-.type-section {
-    padding: 8em 16em;
+#type-section {
+    padding: 4em 8em;
 }
 
 .types {
@@ -81,10 +94,22 @@ figure img {
     justify-content: flex-start;
 }
 
-.quote-section {
+#quote-section {
     background-color: #E5E7EB;
     color: #1F2937;
     padding: 4em 8em;
+}
+
+#join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 4em 8em;
+    padding: 2em 4em;
+    background-color: #3882F6;
+    border-radius: 25px;
+    color: white;
 }
 
 #quote {
@@ -94,4 +119,17 @@ figure img {
 
 #by {
     text-align: right;
+    font-size: 20px;
+}
+
+.join-text > p {
+    margin: 0 0;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    font-size: 18px;
+    padding: 0.5em;
 }

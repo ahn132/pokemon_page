@@ -1,54 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Learn About Pokemon</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="nav">
-      <p><strong>Learn About Pokemon</strong></p>
-      <a href="#section_2">Pokemon Types</a>
-      <a href="section_3">Gotta Catch 'Em All</a>
-      <a href="section_4">Join the Quest</a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn About Pokemon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <p><strong>Learn About Pokemon</strong></p>
+    <a href="#type-section">Pokemon Types</a>
+    <a href="#quote-section">Gotta Catch 'Em All</a>
+    <a href="#join">Join the Quest</a>
+  </div>
+  <div id="introduction">
+    <div class="intro-left">
+      <h1 id="intro_header">Pokemon are awesome!</h1>
+      <p>Pokémon are creatures of all shapes and sizes who live in the wild or alongside their human partners (called
+        “Trainers”). Hundreds of known Pokémon inhabit the Pokémon universe, with untold numbers waiting to be
+        discovered!</p>
+      <button onclick="window.location.href='https://www.pokemon.com/us';">Learn more</button>
     </div>
-    <div class="introduction">
-      <div class="intro-left">
-        <h1 id="intro_header">Pokemon are awesome!</h1>
-        <p>Pokémon are creatures of all shapes and sizes who live in the wild or alongside their human partners (called “Trainers”). Hundreds of known Pokémon inhabit the Pokémon universe, with untold numbers waiting to be discovered!</p>
-        <button>Learn more</button>
-      </div>
-      <div class="intro-right">
-        <img src="images/pokemon_logo.png" alt="Pokemon logo">
-      </div>
+    <div class="intro-right">
+      <img src="images/pokemon_logo.png" alt="Pokemon logo">
     </div>
-    <div class="type-section">
-      <h2>Some Basic Pokemon Types</h2>
-      <div class="types">
-        <figure>
-          <img src="images/rattata.png">
-          <figcaption>Normal Type (Rattata)</figcaption>
-        </figure>
-        <figure>
-          <img src="images/bulbasaur.png">
-          <figcaption>Grass Type (Bulbasaur)</figcaption>
-        </figure>
-        <figure>
-          <img src="images/squirtle.png">
-          <figcaption>Water Type (Squirtle)</figcaption>
-        </figure>
-        <figure>
-          <img src="images/charmander.png">
-          <figcaption>Fire Type (Charmander</figcaption>
-        </figure>
-      </div>
+  </div>
+  <div id="type-section">
+    <h2>Some Basic Pokemon Types</h2>
+    <div class="types">
+      <figure>
+        <img src="images/rattata.png">
+        <figcaption>Normal Type (Rattata)</figcaption>
+      </figure>
+      <figure>
+        <img src="images/bulbasaur.png">
+        <figcaption>Grass Type (Bulbasaur)</figcaption>
+      </figure>
+      <figure>
+        <img src="images/squirtle.png">
+        <figcaption>Water Type (Squirtle)</figcaption>
+      </figure>
+      <figure>
+        <img src="images/charmander.png">
+        <figcaption>Fire Type (Charmander</figcaption>
+      </figure>
     </div>
-    <div class="quote-section">
-      <p id="quote">I wanna be the very best like no one ever was. To catch them is my real test; To train them is my cause. I will travel across the land searching far and wide. Teach pokémon to understand the power that's inside</p>
-      <p id="by">&mdash;Ash Ketchum</p>
+  </div>
+  <div id="quote-section">
+    <p id="quote">I wanna be the very best like no one ever was. To catch them is my real test; To train them is my
+      cause. I will travel across the land searching far and wide. Teach pokémon to understand the power that's inside
+    </p>
+    <p id="by">&mdash;Ash Ketchum</p>
+  </div>
+  <div id="join">
+    <div class="join-text">
+      <h3>Join Ash in his quest to catch 'em all!</h3>
+      <p>Click the button to the right to learn more!</p>
     </div>
-	<script src="index.js"></script>
-  </body>
+    <div>
+      <button onclick="window.location.href='https://www.pokemon.com/us';">Learn more</button>
+    </div>
+  </div>
+  <div id="footer">
+    <p>@ahn132 on GitHub</p>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
